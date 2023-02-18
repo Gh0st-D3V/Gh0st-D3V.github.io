@@ -3,6 +3,8 @@ layout: post
 title: About
 ---
 
-This is an example page!
+Welcome to my portfolio.
 
-Actually, it has the same layout of a post...
+   This was set up as a unique way to share my projects past and and future with intrested parties from the NSCC IT job fair.
+As well as people i meet at any cyber related events!.
+Please feel free to contact me at gh0st_dev@outlook.com
