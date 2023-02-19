@@ -11,14 +11,14 @@ navbar_entries:
 
 project_entries:
   - title: Knocker
-    url: knocker-script
+    url: knocker-script.md
     desc: A masscan automation script
     highlight: NEW
 
   - title: GOOSE
-    url: GOOSE.py
+    url: GOOSE.py.md
     desc: A python based FTP file grabber
-    hightlight: NEW
+    highlight: NEW
 
   #- title: Project 3
   #  url: overview-post
