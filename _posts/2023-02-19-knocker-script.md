@@ -113,4 +113,4 @@ fi
 ---
 {: data-content="footnotes"}
 
-[^1]: GOOSE.py can be found over [here](https:Gh0st-D3V.github.io/GOOSE.py) 
+[^1]: GOOSE.py can be found over [here](https:Gh0st-D3V.github.io/goose-py) 
