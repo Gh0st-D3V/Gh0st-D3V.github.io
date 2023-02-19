@@ -15,8 +15,9 @@ project_entries:
     highlight: NEW
 
   - title: GOOSE
-    url: goose-python
+    url: GOOSE.py
     desc: A python based FTP file grabber
+    hightlight: NEW
 
   #- title: Project 3
   #  url: overview-post
