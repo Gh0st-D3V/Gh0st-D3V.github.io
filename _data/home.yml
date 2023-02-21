@@ -20,7 +20,11 @@ project_entries:
     desc: A python based FTP file grabber
     highlight: NEW
 
-  #- title: Project 3
+  - title: Warmind
+    url: warmind-script
+    desc: RDP Brute force automation script
+    highlight: New 
+ #- title: Project 3
   #  url: overview-post
   #  desc: You can control visibility from _config.yml file
 
