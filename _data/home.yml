@@ -10,6 +10,11 @@ navbar_entries:
     url: https://Gh0st-D3V.github.io
 
 project_entries:
+  - title: PI-TAP
+    url: pitap
+    desc: Physical network monitoring using a raspberry pi
+    highlight: NEW
+
   - title: Gh0st_Protocol
     url: ghost-script
     desc: A post exploitation tool for Linux systems
