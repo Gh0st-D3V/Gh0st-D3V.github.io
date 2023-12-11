@@ -13,12 +13,12 @@ project_entries:
   - title: PI-TAP
     url: pitap
     desc: Physical network monitoring using a raspberry pi
-    highlight: NEW
+    
 
   - title: Gh0st_Protocol
     url: ghost-script
     desc: A post exploitation tool for Linux systems
-    highlight: NEW
+    
 
   - title: Knocker
     url: knocker-script
@@ -32,9 +32,9 @@ project_entries:
     url: warmind-script
     desc: RDP Brute force automation script
 
- #- title: Project 3
-  #  url: overview-post
-  #  desc: You can control visibility from _config.yml file
+  - title: Resume
+    url: Resume
+    desc: Up to date Resume for Eirik Larsen
 
   #- title: Project 4
   #  url: overview-post
