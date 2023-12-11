@@ -33,7 +33,7 @@ project_entries:
     desc: RDP Brute force automation script
 
   - title: Resume
-    url: Resume
+    url: resume
     desc: Up to date Resume for Eirik Larsen
 
   #- title: Project 4
