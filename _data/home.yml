@@ -3,11 +3,8 @@ navbar_entries:
   - title: about
     url: about
 
-  - title: blog
-    url: blog
-
-  - title: website
-    url: https://Gh0st-D3V.github.io
+  - title: github
+    url: https://github.com/Gh0st-D3V
 
 project_entries:
   - title: PI-TAP
@@ -35,6 +32,10 @@ project_entries:
   - title: Resume
     url: resume
     desc: Up to date Resume for Eirik Larsen
+
+  - title: eJPT Certificate
+    url: ejpt
+    desc: Certificate of Completion for INE's eJPT exam
 
   #- title: Project 4
   #  url: overview-post
